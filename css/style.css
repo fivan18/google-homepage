@@ -1,17 +1,56 @@
-.applications {
+body {
+    font-family: arial,sans-serif;
+}
+
+/*  Navigation bar */
+
+nav.up {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+}
+
+.nav-childs {
     display: inline-block;
+    margin-right: 20px;
+}
+
+.fonts-text {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.applications-link {
     width: 30px;
     height: 30px;
-    background-color: blue;
-    /*background-image: url(https://ssl.gstatic.com/gb/images/i2_2ec824b0.png);
-    background-position: -132px -38px;
-    background-size: 528px 68px;*/
+    background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-position-x: -132px;
+    background-position-y: -38px;
+    background-size: 528px 68px;
+    opacity: .55;
 
 }
 
-.account {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-color: blue;
+.account-link {
+    width: 32px;
+    height: 32px;
+    background-image: url(https://lh3.googleusercontent.com/-JyGE3UuNEfo/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdYK5OMxZ4lJfkjLHAIVXT_sAA9aA.CMID/s32-c/photo.jpg);
+    border-radius: 50%;
 }
+
+/*  Main section  */
+
+main {
+    margin-top: 89px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 272px;
+    height: 92px;
+    padding-top: 50px;
+}
+
