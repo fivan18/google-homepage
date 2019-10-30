@@ -54,3 +54,46 @@ img {
     padding-top: 50px;
 }
 
+.search-bar {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 582px;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+}
+
+.search-icon {
+    height: 44px;
+    width: 44px;
+}
+
+.search-icon svg {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.search-bar input {
+    flex: 1;
+    border-style: none;
+    outline: none;
+}
+
+.microphone {
+    height: 44px;
+    width: 44px;
+}
+
+.microphone  span{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    background-size: 24px;
+    margin-top: 11px;
+    margin-left: 6px;
+}
+
