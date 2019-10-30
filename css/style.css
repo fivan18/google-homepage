@@ -10,6 +10,7 @@ nav.up {
     justify-content: flex-end;
     align-items: center;
     height: 40px;
+    margin-top: 15px;
 }
 
 .nav-childs {
@@ -37,7 +38,7 @@ nav.up {
 .account-link {
     width: 32px;
     height: 32px;
-    background-image: url(https://lh3.googleusercontent.com/-JyGE3UuNEfo/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdYK5OMxZ4lJfkjLHAIVXT_sAA9aA.CMID/s32-c/photo.jpg);
+    background-image: url('../image/photo.jpg');
     border-radius: 50%;
 }
 
@@ -165,6 +166,13 @@ footer {
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+/* Hover */
+
+.hov:hover {
+    text-decoration: underline;
+    color: black;
 }
 
 
